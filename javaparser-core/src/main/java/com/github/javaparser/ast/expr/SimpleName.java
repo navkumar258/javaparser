@@ -46,7 +46,7 @@ public class SimpleName extends Node implements NodeWithIdentifier<SimpleName> {
     private String identifier;
 
     public SimpleName() {
-        this(null, "empty");
+        this(null, null);
     }
 
     @AllFieldsConstructor
